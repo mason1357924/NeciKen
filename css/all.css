@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+ul{
+    margin: 0;
+}
+#main_menu{
+    background-color: rgba(126, 170, 247, 0.64);
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    list-style:none ;
+    padding: 50;
+    height: 65px;
+    
+}
+
+#main_menu li{
+    display: inline-block;
+}
+
+#main_menu li a{
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#main_menu li a:hover{
+    color: #fcfcfc;
+
+}
+.text1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.pic1{
+    background-image:url(../img/17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 250px;  
+}
+.music{
+    display: flex;
+    justify-content: space-around;
+}
+
+.a1{
+    width: 20%;
+    height: 500px;
+    font-size: 25px;
+    left: 50px;
+}
+.pic2{
+    background-image:url(../img/88.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    left: 20px;
+}
+.a2{
+    width: 20%;
+    height: 500px;
+    font-size: 25px;
+    left: 50px;
+}
+.pic3{
+    background-image:url(../img/84.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    width: 300px;
+    height: 300px;
+    
+}
+.a3{
+    width: 20%;
+    height: 500px;
+    font-size: 25px;
+    left: 50px;
+}
+.pic4{
+    background-image:url(../img/36.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+.a4{
+    width: 20%;
+    height: 500px;
+    font-size: 25px;
+    left: 50px;
+}
+.pic5{
+    background-image:url(../img/35.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+.a5{
+    width: 20%;
+    height: 500px;
+    font-size: 25px;
+    left: 50px;
+}
+.pic6{
+    background-image:url(../img/500x500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+.a6{
+    width: 20%;
+    height: 500px;
+    font-size: 25px;
+    left: 50px;
+}
+.pic7{
+    background-image:url(../img/160x160.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+.btm{
+    background-color: rgba(0, 3, 8, 0.64);
+    width: 100%;
+    height: 65px; 
+}
